@@ -3,3 +3,4 @@ This project aims to over engineer with all the major DevOps tools including IaC
 
 ## Technology Implemented
 - Docker
+- GitHub Actions
