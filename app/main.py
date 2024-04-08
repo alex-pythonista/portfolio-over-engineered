@@ -13,3 +13,7 @@ async def hello(request: Request):
     return templates.TemplateResponse(
         request=request, name="index.html"
     )
+
+@app.get('/health/')
+async def health(request: Request):
+    return {'message': '200 OK'}
